@@ -1,7 +1,7 @@
 
 Directions:
 
-Open the file titled "index.html" to view the website.
+To view website Open link:  https://acehawk96.github.io  
 
 
 
