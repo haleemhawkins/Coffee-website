@@ -1,7 +1,7 @@
 
 Directions:
 
-To view website Open link:  https://acehawk96.github.io  
+To view website Open link:  https://acehawk96.github.io/Coffee-website/  
 
 
 
