@@ -22,3 +22,4 @@ Thank you for viewing!
  ![Coffee Shops of America coffee shops](screen_shots/north.PNG)
 
 
+screen_shots/homePage.PNG
