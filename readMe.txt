@@ -15,6 +15,10 @@ This was a school project but the idea and look of the website was left complete
 
 Thank you for viewing!
 
-
+### Home Page
+ ![Coffee Shops of America Home Page](screen_shots/homePage.PNG)
+ 
+### Sample Page
+ ![Coffee Shops of America coffee shops](screen_shots/north.PNG)
 
 
