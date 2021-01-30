@@ -1,0 +1,235 @@
+/*
+  Haleem Hawkins
+  09 Jun 2020
+  Coffee Shops of America final project
+*/
+:root{
+    --creamy: #F2E3E3;
+    --smokeytext: #4A4A4A;
+}
+#wrapper{
+	      width: auto;
+          height: auto;
+          font-family: 'Concert One', sans-serif;
+		  color: var(--smokeytext);
+          margin-left: auto;
+          margin-right: auto;
+}
+#wrapper::before{
+                  content: "";
+                  background-image: url(images/coffee_background.jpg);
+                  background-size: cover;
+                  background-repeat: repeat;
+                  position: fixed;
+                  top: 0px;
+                  right: 0px;
+                  bottom: 0px;
+                  left: 0px;
+                  opacity: 50%;
+                  z-index: -1;
+                  background-repeat: repeat-y;
+}
+header{ 
+        width: 50%;
+        margin: auto;
+        background-color: var(--creamy);
+        text-align: center;
+		font-size: 30pt;
+		margin-top: 150px;
+        margin-bottom: 150px;
+        padding: .5%;
+        border-radius: 20px;
+        border: 1px solid #714A54;
+}
+nav{  
+      background-color: rosybrown;
+      width: auto;
+	  padding: 1em;
+      margin: auto;
+	  text-align:center;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      font-size: 15pt;
+}
+nav a{ 
+	   text-decoration: none;
+	   color: var(--smokeytext);
+}
+a{
+    padding-left: 2px;
+	padding-right:2px;
+}
+ h2{
+	 text-align: center;
+}
+li{
+    list-style-type: none;
+}
+ul li{
+	font-size: 19pt;
+    width: 40%;
+    background-color: var(--creamy);
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center
+}
+ul li p{
+    background-color: rosybrown;
+    border-radius: 20px;
+}
+caption{
+    font-size: 40pt;
+    background-color: rosybrown;
+    border: 3px solid #714A54;
+    border-radius: 7px;
+    padding:.5em;
+    margin-bottom: 1%
+}
+table{
+	    margin: auto;
+        margin-top: 4em;
+		margin-bottom: 4em;
+        background-color: rosybrown;
+}
+table, th, td {
+                border: 3px solid #714A54;
+                border-radius: 7px;
+              }
+th{
+    font-size: 15pt;
+    color: var(--smokeytext);
+    padding:.5em;
+}
+td{
+    padding: 0.5em;
+	margin: auto;
+}
+td a{
+	  text-decoration: none;
+	  font-size: 25pt;
+	  color: lightgray;
+}
+td img{
+	    padding:1em;
+		margin: auto;
+}
+#img{
+	       margin: 1em;
+	       padding: 0.5em;
+		   background: #714A54;
+}
+footer{
+	    background-color: rosybrown;
+		padding: 5px;
+		text-align: right;
+		font-weight: bold;
+		font-size: 20px;
+        position: fixed;
+        width: 100%;
+        left: 0;
+        bottom: 0;  
+}
+footer a{
+          color: var(--smokeytext);
+		  text-decoration: none;
+          margin-right: 2%;
+}
+form{
+	  background-color: #EAEAEA;
+	  width: 350px; 
+	  padding: 10px; 
+	  height: 400px;
+	  text-align: left;
+	  margin: 3em;
+}
+textarea{
+	      height: 300px;
+		  width: 300px; 
+}  	   
+p{
+   background-color: var(--creamy);
+   font-size: 20pt;
+   text-align: center; 
+   padding: 2%;
+   margin-left: -1%;
+   margin-right: -1%
+}
+
+/* Boba Group */
+.firstCarasel{
+    background-color: var(--creamy);
+    border-radius: 20px;
+    position: relative;
+    width: 324px;
+    height: 416px;
+    left: 120px;
+    top: 100px;
+    text-align: center;
+}
+/* Boba Group */
+.fCaraselImg{
+    position: relative;
+    top: 100px;
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 22% 80%;
+    background-image: url(images/rosalind-chang-P_wPicZYoPI-unsplash.jpg);
+    border-radius: 20px;
+}
+
+/* smoothie Group */
+.secondCarasel{
+    position: relative;
+    width: 324px;
+    height: 416px;
+    left: 558px;
+    top: -315px;
+    background-color: var(--creamy);
+    border-radius: 20px;
+    text-align: center;
+}
+.sCaraselImg{
+    position: relative;
+    top: 100px;
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(images/qazal-heydarpour-hVUSLW_tsmI-unsplash.jpg);
+    background-position: 0% 65%;
+    border-radius: 20px;
+}
+/* matcha Group */
+.thirdCarasel{
+    position: relative;
+    width: 324px;
+    height: 416px;
+    left: 1000px;
+    top: -728px;
+    background-color: var(--creamy);
+    border-radius: 20px;
+    text-align: center;
+}
+.tCaraselImg{
+    position: relative;
+    top: 100px;
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(images/ann-74NChp1cn5I-unsplash.jpg);
+    background-position: 0% 80%;
+    border-radius: 20px;
+}
+
+/*Need to center used for wide screen*/
+.center{
+    margin-left: 200px;
+}
