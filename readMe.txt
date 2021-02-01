@@ -15,7 +15,4 @@ This was a school project but the idea and look of the website was left complete
 
 Thank you for viewing!
 
-![Coffee Shops of America Home Page](screen_shots/homePage.png)
- 
-![Coffee Shops of America coffee shops](screen_shots/north.png)
 
