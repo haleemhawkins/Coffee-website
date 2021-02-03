@@ -332,13 +332,89 @@ and (-webkit-min-device-pixel-ratio: 3) {
     }
 }
 
-/* Portrait *//**/
+/* Portrait */
 @media only screen
 and (min-device-width: 375px)
 and (max-device-width: 812px)
 and (-webkit-min-device-pixel-ratio: 3)
 and (orientation: portrait) {
+     /* Boba Group */
+    .firstCarasel{
+        background-color: var(--creamy);
+        border-radius: 20px;
+        position: relative;
+        width: 300px;
+        height: 416px;
+        left: -3.7%;
+        top: 100px;
+        text-align: center;
+    }
+    /* Boba Group */
+    .fCaraselImg{
+        position: relative;
+        top: 100px;
+        width: 275px;
+        height: 300px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 22% 80%;
+        background-image: url(images/rosalind-chang-P_wPicZYoPI-unsplash.jpg);
+        border-radius: 20px;
+    }
 
+    /* smoothie Group */
+    .secondCarasel{
+        position: relative;
+        width: 300px;
+        height: 416px;
+        left:31.7%;
+        top: -315px;
+        background-color: var(--creamy);
+        border-radius: 20px;
+        text-align: center;
+    }
+    .sCaraselImg{
+        position: relative;
+        top: 100px;
+        width: 275px;
+        height: 300px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(images/qazal-heydarpour-hVUSLW_tsmI-unsplash.jpg);
+        background-position: 0% 65%;
+        border-radius: 20px;
+    }
+    /* matcha Group */
+    .thirdCarasel{
+        position: relative;
+        width: 300px;
+        height: 416px;
+        left:67%;
+        top: -728px;
+        background-color: var(--creamy);
+        border-radius: 20px;
+        text-align: center;
+    }
+    .tCaraselImg{
+        position: relative;
+        top: 100px;
+        width: 275px;
+        height: 300px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(images/ann-74NChp1cn5I-unsplash.jpg);
+        background-position: 0% 80%;
+        border-radius: 20px;
+    }
+    nav a{
+        font-size: 17pt;
+        padding-left:.1px;
+        padding-right:.1px;
+    }
+    footer a{
+        font-size:17pt
+    }
+}
 }
 
 /* Landscape */
