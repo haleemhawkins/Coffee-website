@@ -415,12 +415,12 @@ and (orientation: portrait) {
     }
 }
 
-        /* iPad Air 3 */
+        /* iPad Air */
 
 /* Landscape */
-@media only screen
-and (min-device-width: 1112px)
-and (orientation: landscape)
+@media only screen and (min-device-width: 481px)
+and (max-device-width: 1024px)
+and (orientation:landscape)
 and (-webkit-min-device-pixel-ratio: 2){
     /* Boba Group */
     .firstCarasel{
@@ -429,7 +429,7 @@ and (-webkit-min-device-pixel-ratio: 2){
         position: relative;
         width: 300px;
         height: 416px;
-        left: -2px;
+        left: -16px;
         top: 95px;
         text-align: center;
     }
@@ -452,7 +452,7 @@ and (-webkit-min-device-pixel-ratio: 2){
         position: relative;
         width: 300px;
         height: 416px;
-        left: 350px;
+        left: 315px;
         top: -321px;
         background-color: var(--creamy);
         border-radius: 20px;
