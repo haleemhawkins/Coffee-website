@@ -501,12 +501,12 @@ and (-webkit-min-device-pixel-ratio: 2){
     }
 }
 
-/* Portrait */
+/*!* Portrait *!
 @media only screen
 and (min-device-width: 834px)
 and (orientation: portrait)
 and (-webkit-min-device-pixel-ratio: 2){
-    /* Boba Group */
+    !* Boba Group *!
     .firstCarasel{
         background-color: var(--creamy);
         border-radius: 20px;
@@ -517,7 +517,7 @@ and (-webkit-min-device-pixel-ratio: 2){
         top: 95px;
         text-align: center;
     }
-    /* Boba Group */
+    !* Boba Group *!
     .fCaraselImg{
         position: relative;
         top: 100px;
@@ -531,7 +531,7 @@ and (-webkit-min-device-pixel-ratio: 2){
         border-radius: 20px;
     }
 
-    /* smoothie Group */
+    !* smoothie Group *!
     .secondCarasel{
         position: relative;
         width: 300px;
@@ -553,7 +553,7 @@ and (-webkit-min-device-pixel-ratio: 2){
         background-position: 0% 65%;
         border-radius: 20px;
     }
-    /* matcha Group */
+    !* matcha Group *!
     .thirdCarasel{
         position: relative;
         width: 300px;
@@ -583,4 +583,4 @@ and (-webkit-min-device-pixel-ratio: 2){
     footer a{
         font-size:17pt
     }
-}
+}*/
