@@ -15,4 +15,5 @@ This was a school project but the idea and look of the website was left complete
 
 Thank you for viewing!
 
+![Home Page](src/images/screenShots/thirdPG.PNG)
 
