@@ -17,8 +17,13 @@ I developed this using HTML and CSS.
 
 This was a school project but the idea and look of the website was left completely up to me. 
 
+Later on, I have been consistantly updating the user interface of the page to create a pleasing aesthetic.
+
 Thank you for viewing!
 
 #### Home page
 ![Home Page](screen_shots/homePage.PNG)
+
+#### Northeastern Coffee shops page
+![Northeastern Coffee shops page](screen_shots/north.PNG)
 
