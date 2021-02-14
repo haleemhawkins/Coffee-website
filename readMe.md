@@ -1,11 +1,15 @@
 
+# Coffee Shops of America
+
+### Coffee Appreciation site.
+
 Directions:
 
-To view website Open link:  https://acehawk96.github.io/Coffee-website/  
+------------------------------------------------------------------------
 
+## To view website Open link:  https://acehawk96.github.io/Coffee-website/  
 
-
-Decription:
+ ### Description:
 
 This is my first functional website promoting some amazing coffee shops and my love for coffee! 
 
@@ -15,5 +19,6 @@ This was a school project but the idea and look of the website was left complete
 
 Thank you for viewing!
 
+#### Home page
 ![Home Page](screen_shots/homePage.PNG)
 
