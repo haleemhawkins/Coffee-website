@@ -27,3 +27,8 @@ Thank you for viewing!
 #### Northeastern Coffee shops page
 ![Northeastern Coffee shops page](screen_shots/north.PNG)
 
+### Lessons Learned:
+ * Designing with Figma is essential.
+ * Design the web and mobile version of the site on figma. 
+ * Next time, I would like to use either CSS grid or flexbox layouts for styling.
+ * I also need to start studying/recreating current design trends to improve my eye for design.
