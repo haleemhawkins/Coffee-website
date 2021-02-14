@@ -9,6 +9,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title>Coffee Shops of America</title>
   <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="script.js"></script>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
   </style>  
@@ -31,16 +32,30 @@
         There are so many different ways to enjoy coffee from iced coffee to cappuccino.
         Here's a guide for embarking on your caffeinated journey!
       </p>
+      <div class="slideshow-container" >
+          <ul>
+            <li class="mySlides fade">Iced<p>A beverage chilled beverage with ice and comes as either a latte or cold-brew coffee.</p></li>
+            <li class="mySlides fade">Coffee<p>More of a familiar drink consisting of hot brewed coffee.</p></li>
+            <li class="mySlides fade">Latte<p>Consists of Espresso and steamed milk.</p></li>
+            <li class="mySlides fade">Mocha<p>Similar to a latte consisting of espresso and steamed milk and a chocolaty flavoring.</p></li>
+            <li class="mySlides fade">Cappuccino<p>Consists of espresso, hot milk and topped with steamed milk foam.</p></li>
+            <li class="mySlides fade">Americano<p>Consists of simply espresso and hot water which is great for a quick caffeine boost.</p>	</li>
+          </ul>
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+          <span class="dot" onclick="currentSlide(6)"></span>
+      </div>
 
-      <ul>
-        <li class="mySides fade">Iced<p>Essentially a beverage chilled with ice and comes as either a latte or cold-brew coffee.</p></li>
-        <li class="mySides fade">Coffee<p>More of a familiar drink consisting of hot brewed coffee.</p></li>
-        <li class="mySides fade">Latte<p>Consists of Espresso and steamed milk.</p></li>
-        <li class="mySides fade">Mocha<p>Similar to a latte consisting of espresso and steamed milk but also includes a chocolaty flavoring.</p></li>
-        <li class="mySides fade">Cappuccino<p>Consists of espresso, hot milk and topped with steamed milk foam.</p></li>
-        <li class="mySides fade">Americano<p>Consists of simply espresso and hot water which is great for a quick caffeine boost.</p>	</li>
-
-      </ul>
   </main>
   <footer>
     <a href="site_map.pdf" target="_blank"> <small><i>Site map</i></small></a>
