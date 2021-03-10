@@ -298,7 +298,7 @@ main>p{
 }
 
 .active, .dot:hover {
-    background-color: dimgrey;
+    background-color: #454545;
 }
 
 /* Next & previous buttons */
